@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#title{
+    text-align: center;
+    background-color: red;
+}
+
+#home-button{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+#link-list{
+    background-color: lightblue;
+    font-size: 25px;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.ingredients-list{
+    background-color: lightpink;
+}
+
+.steps-list{
+    background-color: lightblue;
+}
