@@ -1,31 +1,91 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: lightyellow;
 }
 #title{
     text-align: center;
     background-color: red;
+    width: 500px;
+    padding: 5px;
+    margin: auto;
+    border: 3px solid black;
 }
 
 #home-button{
+    display: block;
+    text-align: center;
     background-color: black;
     color: white;
     font-size: 25px;
+    width: 200px;
+    padding: 4px;
+    margin: 16px auto;
 }
 
 #link-list{
     background-color: lightblue;
+    border: 3px solid black;
+    width: 150px;
+    height: 100px;
     font-size: 25px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 img{
-    width: 300px;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+    height: auto;   
+}
+
+.recipe-description{
+    background-color: lightgreen;
+    border: 2px solid black;
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ingredients-list-title{
+    text-align: center;
+    background-color: lightpink;
+    border: 2px solid black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steps-list-title{
+    text-align: center;
+    background-color: lightblue;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
 }
 
 .ingredients-list{
     background-color: lightpink;
+    border: 2px solid black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .steps-list{
     background-color: lightblue;
+    border: 2px solid black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list{
+    display: block;
+    margin: 40px 400px;
+    padding: 10px;
+
 }
